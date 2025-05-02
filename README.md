@@ -5,6 +5,8 @@ Dockerによりローカル環境を構築し、日々の学習内容を `logs/`
 
 ## 学習記録
 
+
+- [Day1: PHP復習環境セットアップ](/logs/day1-setup.md)
 - [Day2: 変数・定数・条件分岐](/logs/day2-variables-review.md)
 
 
