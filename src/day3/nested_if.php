@@ -13,11 +13,18 @@
 // 20歳未満 → 「未成年の方は入店できません」
 
 // 変数例：
-// $age = 18;
-// $wearingMask = false;
+$age = 20;
+$wearingMask = true;
 
-
-
+if ($age >= 20) {
+    if ($wearingMask) {
+        echo "<p>入店OK</p>";
+    } else {
+        echo "<p>マスクを着用してください</p>";
+    }
+} else {
+    echo "<p>未成年の方は入店できません</p>";
+}
 
 
 // ✅ 練習2：ログイン判定
@@ -30,6 +37,14 @@
 // ログインしていない → 「ログインしてください」
 
 // 変数例：
-// $isLoggedIn = true;
-// $isAdmin = false;
+$isLoggedIn = true;
+$isAdmin = true;
+
+if ($isLoggedIn && $isAdmin) {
+    echo "<p>管理者ページへようこそ</p>";
+} elseif ($isLoggedIn && !$isAdmin) {
+    echo "<p>ようこそ、ユーザーさん</p>";
+} else {
+    echo "<p>ログインしてください</p>";
+}
 
