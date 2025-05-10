@@ -99,3 +99,4 @@ for ($dan = 1; $dan <= 3; $dan++) {
 
 // echo "{$dan} × {$i} = {$result}<br>";	計算式と結果を表示
 
+
