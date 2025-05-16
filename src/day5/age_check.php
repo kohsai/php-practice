@@ -31,13 +31,13 @@ $age = 21;
 
 if ($age >= 20) {
     echo "あなたは成人です。<br>";
-    } elseif ($age >=13) {
+} elseif ($age >= 13) {
     echo "あなたは未成年です。<br>";
-    } elseif ($age >=0) {
+} elseif ($age >= 0) {
     echo "あなたは子どもです。<br>";
-    } else {
+} else {
     echo "正しい年齢を入力してください。";
-    }
+}
 
 
 //     💡 ワンポイント補足（読みやすさの工夫）
