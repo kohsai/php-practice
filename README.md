@@ -11,5 +11,6 @@ Dockerによりローカル環境を構築し、日々の学習内容を `logs/`
 - [Day3: 条件分岐（ネストと分岐）](/logs/day3-conditional-review.md)
 - [Day4: 条件分岐・ループのまとめ（前編）](logs/day4-review.md)
 - [Day5: 条件分岐・ループのまとめ（後編）](logs/day5-summary.md)
+- [Day6: 関数と条件分岐の総まとめ](logs/day6-summary.md)
 
 
